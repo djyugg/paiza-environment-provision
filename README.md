@@ -9,3 +9,6 @@ Paizaの[各言語実行環境](http://paiza.jp/guide/language)をVM上で再現
 - [x] Python(apt-getで取得可能な最新版)
 - [x] Ruby
 - [ ] Scala
+
+## License
+MIT
