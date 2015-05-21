@@ -2,3 +2,6 @@
 - src: zzet.rbenv
 
 - src: djyugg.nodebrew
+
+- src: geerlingguy.php
+  version: 1.5.0
