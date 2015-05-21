@@ -5,7 +5,7 @@ Paizaの[各言語実行環境](http://paiza.jp/guide/language)をVM上で再現
 - [x] Bash(apt-getで取得可能な最新版)
 - [ ] Java
 - [x] node.js
-- [ ] PHP
+- [x] PHP(apt-getで取得可能な最新版)
 - [x] Python(apt-getで取得可能な最新版)
 - [x] Ruby
 - [ ] Scala
