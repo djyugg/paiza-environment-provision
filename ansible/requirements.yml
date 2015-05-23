@@ -1,7 +1,9 @@
 # from github installing to a relative path
 - src: zzet.rbenv
+  version: 2.1.3
 
 - src: djyugg.nodebrew
+  version: v0.1
 
 - src: geerlingguy.php
   version: 1.5.0
