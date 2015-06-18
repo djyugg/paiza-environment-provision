@@ -12,3 +12,7 @@
     - role: djyugg.nodebrew
 
     - role: geerlingguy.php
+
+    - role: ansiblebit.oracle-java
+      oracle_java_version: 8
+      oracle_java_state: latest

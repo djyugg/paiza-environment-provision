@@ -3,7 +3,7 @@ Paizaの[各言語実行環境](http://paiza.jp/guide/language)をVM上で再現
 
 ## 対応予定言語
 - [x] Bash(apt-getで取得可能な最新版)
-- [ ] Java
+- [x] Java
 - [x] node.js
 - [x] PHP(apt-getで取得可能な最新版)
 - [x] Python(apt-getで取得可能な最新版)

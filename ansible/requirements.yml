@@ -7,3 +7,6 @@
 
 - src: geerlingguy.php
   version: 1.5.0
+
+- src: ansiblebit.oracle-java
+  version: v4.0.0
