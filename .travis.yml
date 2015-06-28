@@ -7,4 +7,5 @@ install:
   - ansible --version
   - ansible-galaxy install -r ./ansible/requirements.yml -p ./ansible/roles
 script:
-  - ansible-playbook ./ansible/site.yml --syntax-check
+  - echo "172.0.0.1" > ./ansible/hosts
+  - ansible-playbook ./ansible/site.yml --syntax-check -i ./ansible/hosts
