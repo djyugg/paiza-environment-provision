@@ -4,7 +4,7 @@ python:
   - "2.7"
 install:
   - pip install ansible
-script:
   - ansible --version
   - ansible-galaxy install -r ./ansible/requirements.yml -p ./ansible/roles
+script:
   - ansible-playbook ./ansible/site.yml --syntax-check
