@@ -6,6 +6,7 @@ install:
   - pip install ansible
   - ansible --version
   - ansible-galaxy install -r ./ansible/requirements.yml -p ./ansible/roles
-script:
+before_script:
   - echo "172.0.0.1" > ./ansible/hosts
+script:
   - ansible-playbook ./ansible/site.yml --syntax-check -i ./ansible/hosts
