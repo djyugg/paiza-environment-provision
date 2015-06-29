@@ -19,4 +19,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     paiza.vm.provision "shell", path: "provision.sh"
   end
 
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :box
+  end
+
 end
