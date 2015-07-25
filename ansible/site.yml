@@ -9,7 +9,9 @@
         env: user
         version: v0.4.0
         ruby_version: 2.0.0-p645
+
     - role: djyugg.nodebrew
+      nodebrew_nodejs_version: v0.10.25
 
     - role: geerlingguy.php
 
